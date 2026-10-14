@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Machine learning outputs
+checkpoints/
+outputs/
+*.bin
+*.pt
+*.pth
+*.safetensors
+LoRA/
+adapter_model/
+merged_model/
+
+# Secrets
+.env
+*.token
+config.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+wandb/
+
+# Local notebooks and experiment files
+*.csv
+*.jsonl
+*.parquet
